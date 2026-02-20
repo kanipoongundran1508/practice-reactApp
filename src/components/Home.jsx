@@ -40,8 +40,8 @@ export const Home = () => {
                 <img className="card-img"  src={ProfilePic} alt="Card-image" />
                 <h2 className='card-title'>Kanipoongundran</h2>
                 <p className='card-text'>I'm Learning FullStack Developer</p>
-            </div>
-            <button>Submit</button> <br />
+            </div> <br />
+            <button className="button">Submit</button> 
             
 
         </div>

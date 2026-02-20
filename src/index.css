@@ -39,3 +39,11 @@ code {
   font-size: 15px;
   color: hsl(0, 0%, 23%);
 }
+.button {
+  background-color: hsl(200 100% 50%) ;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
