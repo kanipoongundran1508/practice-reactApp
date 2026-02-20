@@ -39,7 +39,7 @@ export const Home = () => {
             <div className="card">
                 <img className="card-img"  src={ProfilePic} alt="Card-image" />
                 <h2 className='card-title'>Kanipoongundran</h2>
-                <p className='card-text'>I'm Learning FullStack Developer</p>
+                <p className='card-text'>I'm Learning FullStack Developement</p>
             </div> <br />
             <button className="button">Submit</button> 
             
