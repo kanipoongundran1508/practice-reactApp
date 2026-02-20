@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect } from "react";
+import ProfilePic from './assets/Profile.jpg'
 
 export const Home = () => {
 
@@ -35,7 +36,14 @@ export const Home = () => {
 
     return(
         <div>
-            This is Home page
+            <div className="card">
+                <img className="card-img"  src={ProfilePic} alt="Card-image" />
+                <h2 className='card-title'>Kanipoongundran</h2>
+                <p className='card-text'>I'm Learning FullStack Developer</p>
+            </div>
+            <button>Submit</button> <br />
+            
+
         </div>
     )
 

@@ -8,6 +8,9 @@ import { Blog } from './components/Blog';
 import { Dashboard } from './products/Dashboard';
 import { ProductList } from './products/ProductList';
 import { ProductPreview } from './products/ProductPreview';
+import Home from './components/Home';
+
+
 
 function App() {
   return (
@@ -21,12 +24,14 @@ function App() {
         <Route path='product2' element={<ProductPreview/>}/>
       </Route>
     </Routes>
+    <Home/>
     
     {/* <a href='/about'>About Us</a> <br></br> */}
     {/* <button type='submit'>Submit </button> */}
 
     {/* <Link to="product">Product Dashboard</Link> */}
     </div>
+
     
   );
 }
