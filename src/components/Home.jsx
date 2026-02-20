@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect } from "react";
-import ProfilePic from './Profile.jpg';
+import ProfilePic from './components/Profile.jpg';
 
 export const Home = () => {
 
